@@ -7,10 +7,13 @@ based off of [flamed fury's 11ty guide](https://flamedfury.com/guides/11ty-homep
 
 automatically builds and deploys using [bret comnes' deploy-to-neocities tool](https://github.com/bcomnes/deploy-to-neocities)
 
+## ALSO FREQUENTLY USED
+[bearblog](https://docs.bearblog.dev/) or [are.na](https://dev.are.na/documentation/channels) as a mobile-friendly host for posting blogs, photos, whatever
+
 # STEPS AFTER COPYING
-* Ctrl + F and update name from "11ty-template"
-* Connect to Neocities + Porkbun
-* Github action to automatically deploy to Neocities upon updating:
+1. Ctrl + F and update name from "11ty-template"
+2. Connect to Neocities + Porkbun
+3. Github action to automatically deploy to Neocities upon updating:
   * Add Neocities API token into repo secrets
   * Create ```.github / workflows / deploy-to-neocities.yml``` at project root
     * ```

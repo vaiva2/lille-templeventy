@@ -12,7 +12,7 @@ automatically builds and deploys using [bret comnes' deploy-to-neocities tool](h
 ## OPTIONAL
 [bearblog](https://docs.bearblog.dev/) or [are.na](https://dev.are.na/documentation/channels) as a mobile-friendly host for posting blogs, photos, whatever
 
-if in a rush to make a basic text site look shnazzy, [simple.css](https://github.com/kevquirk/simple.css?tab=readme-ov-file) is a nice option. the global stylesheet i have in this template is basically a stripped-down version of what they offer
+in this template i've included my preferred minimalist css reset, but if in a rush to make a basic text site look shnazzy, [simple.css](https://github.com/kevquirk/simple.css?tab=readme-ov-file) is a nice option.
 
 # TODO
 * transition from github pages to neocities

@@ -10,8 +10,9 @@ automatically builds and deploys using [bret comnes' deploy-to-neocities tool](h
 # STEPS AFTER COPYING
 * Ctrl + F and update name from "11ty-template"
 * Connect to Neocities + Porkbun
-* Github action (.github / .workflows / deploy-to-neocities.yml) to automatically deploy to Neocities upon updating:
-    ```
+* Github action to automatically deploy to Neocities upon updating:
+  * create ```.github / workflows / deploy-to-neocities.yml``` at project root
+  * ```
     name: Deploy to neocities
 
     # only run on changes to main. Use main or master depending on whatever your default branch is called.

@@ -14,6 +14,11 @@ automatically builds and deploys using [bret comnes' deploy-to-neocities tool](h
 
 if in a rush to make a basic text site look shnazzy, [simple.css](https://github.com/kevquirk/simple.css?tab=readme-ov-file) is a nice option. the global stylesheet i have in this template is basically a stripped-down version of what they offer
 
+# TODO
+* transition from github pages to neocities
+* add component library
+* manifesto on the beauty of simple tools
+
 # STEPS AFTER COPYING
 * Ctrl + F and update name from "lille-templeventy"
 * Connect DNS spaghetti to Neocities and wherever your custom domain is

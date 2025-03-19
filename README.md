@@ -1,4 +1,4 @@
-Vaiva's lovely custom static-site generator template that she uses for all her fun lil projects
+L~* ~* ~* LILLE TEMPLEVENTY *~ *~ *~ is my custom + bare-bones static-site gen template that I use for all (or most) of my fun lil projects. It's versatile and simple with no froo froo nonsense, just the way the digital overseers intended :)
 
 # REFERENCES
 hosted on [neocities](https://neocities.org/)

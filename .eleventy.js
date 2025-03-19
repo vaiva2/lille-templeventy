@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
       dir: {
         input: "src",
         // output: "public", // for use with neocities
-        output: ".", // for use with github pages
+        output: ".", // for use with github pages, note: generates redundant files/folders at the root
         includes: "_includes",
       },
     };

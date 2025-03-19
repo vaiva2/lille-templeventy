@@ -20,7 +20,7 @@ if in a rush to make a basic text site look shnazzy, [simple.css](https://github
   * Add Neocities API token into repo secrets
   * Create ```.github / workflows / deploy-to-neocities.yml``` at project root
     * ```
-name: Deploy to neocities
+    name: Deploy to neocities
 
 # only run on changes to main. Use main or master depending on whatever your default branch is called.
 on:
@@ -58,5 +58,5 @@ jobs:
         neocities_supporter: true # set this to true if you have a supporter account and want to bypass unsuported files filter.
         preview_before_deploy: true # print a deployment plan prior to waiting for files to upload.
         dist_dir: public
-        ```
+    ```
 * ```npm run build``` or ```npm run start``` to enjoy. best served with a [frutiger aero playlist](https://youtu.be/ID_aSxk-1FM?si=16kGAh7t3VPyxoHH)

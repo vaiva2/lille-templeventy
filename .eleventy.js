@@ -8,7 +8,8 @@ module.exports = function (eleventyConfig) {
       passthroughFileCopy: true,
       dir: {
         input: "src",
-        output: "public", // or "." if you want to output to root
+        // output: "public", // for use with neocities
+        output: ".", // for use with github pages
         includes: "_includes",
       },
     };

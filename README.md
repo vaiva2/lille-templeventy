@@ -15,6 +15,7 @@ if in a rush to make a basic text site look shnazzy, [simple.css](https://github
 # STEPS AFTER COPYING
 * Ctrl + F and update name from "lille-templeventy"
 * Connect DNS spaghetti to Neocities and wherever your custom domain is
+* Go to the 11ty config file and choose which output you prefer, depending on where you're hosting
 * Github action to automatically deploy to Neocities upon updating:
   * Add Neocities API token into repo secrets
   * Create ```.github / workflows / deploy-to-neocities.yml``` at project root

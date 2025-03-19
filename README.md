@@ -24,6 +24,7 @@ in this template i've included my preferred minimalist css reset, but if in a ru
 * Connect DNS spaghetti to Neocities and wherever your custom domain is
 * Before building, go to the 11ty config file and choose which output you prefer, depending on where you're hosting
 * If not hosting with github pages, delete existing the root (1)CNAME file, (2)additional index.html, (3)additional css folder.
+  * Better yet just don't use github pages because you have to manually rebuild every time for it to output from src to root and it makes no sense why so just use Neocities. Plus it's not owned by Microsoft.
 * Github action to automatically deploy to Neocities upon updating:
   * Add Neocities API token into repo secrets
   * Create ```.github / workflows / deploy-to-neocities.yml``` at project root

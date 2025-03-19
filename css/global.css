@@ -12,17 +12,24 @@
   --text: #333;
   --text-light: #585858;
   --border: #d8dae1;
-  --accent: #0d47a1;
+  --accent: #530606;
+  --link: #ff0000;
 }
 
 /* CSS RESET */
 html {
   box-sizing: border-box;
   font-size: 1rem;
+  font-family: var(--sans-font);
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {

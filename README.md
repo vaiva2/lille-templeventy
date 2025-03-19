@@ -1,9 +1,16 @@
-# Vaiva's lovely custom static-site generator template that she uses for all her fun lil projects
+Vaiva's lovely custom static-site generator template that she uses for all her fun lil projects
 
-## Steps after copying:
-[ ] Ctrl + F and update name from "11ty-template"
-[ ] Connect to Neocities + Porkbun
-[ ] Github action (.github / .workflows / deploy-to-neocities.yml) to automatically deploy to Neocities upon updating:
+# REFERENCES
+hosted on [neocities](https://neocities.org/)
+
+based off of [flamed fury's 11ty guide](https://flamedfury.com/guides/11ty-homepage-neocities/)
+
+automatically builds and deploys using [bret comnes' deploy-to-neocities tool](https://github.com/bcomnes/deploy-to-neocities)
+
+# STEPS AFTER COPYING
+* Ctrl + F and update name from "11ty-template"
+* Connect to Neocities + Porkbun
+* Github action (.github / .workflows / deploy-to-neocities.yml) to automatically deploy to Neocities upon updating:
     ```
     name: Deploy to neocities
 
@@ -44,4 +51,3 @@
             preview_before_deploy: true # print a deployment plan prior to waiting for files to upload.
             dist_dir: public
     ```
-[ ] 

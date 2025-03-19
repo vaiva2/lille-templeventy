@@ -1,5 +1,7 @@
 Lille Templeventy is my custom + bare-bones static-site gen template that I use for all (or most) of my fun lil projects. It's versatile and simple with no froo froo nonsense, just the way the digital overseers intended :)
 
+Demo deploys to [lilletempleventy.vaiva.space](https://lilletempleventy.vaiva.space).
+
 # REFERENCES
 hosted on [neocities](https://neocities.org/)
 

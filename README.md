@@ -7,8 +7,10 @@ based off of [flamed fury's 11ty guide](https://flamedfury.com/guides/11ty-homep
 
 automatically builds and deploys using [bret comnes' deploy-to-neocities tool](https://github.com/bcomnes/deploy-to-neocities)
 
-## ALSO FREQUENTLY USED
+## OPTIONAL
 [bearblog](https://docs.bearblog.dev/) or [are.na](https://dev.are.na/documentation/channels) as a mobile-friendly host for posting blogs, photos, whatever
+
+if in a rush to make a basic text site look shnazzy, [simple.css](https://github.com/kevquirk/simple.css?tab=readme-ov-file) is a nice option. the global stylesheet i have in this template is basically a stripped-down version of what they offer
 
 # STEPS AFTER COPYING
 * Ctrl + F and update name from "lille-templeventy"

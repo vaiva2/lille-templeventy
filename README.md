@@ -58,4 +58,4 @@ if in a rush to make a basic text site look shnazzy, [simple.css](https://github
                 preview_before_deploy: true # print a deployment plan prior to waiting for files to upload.
                 dist_dir: public
         ```
-* ```npm run build``` or ```npm run start``` to enjoy. best served with a [hyggeligt playlist](https://youtu.be/59nQN4upGyg?si=nFQ9SpOE6xS3pRcG)
+* ```npm run build``` or ```npm run start``` to enjoy. best served with a [hyggeligt playlist](https://youtu.be/59nQN4upGyg?si=-G9DOFNUe9owJTlS)

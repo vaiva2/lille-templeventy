@@ -11,7 +11,7 @@ automatically builds and deploys using [bret comnes' deploy-to-neocities tool](h
 [bearblog](https://docs.bearblog.dev/) or [are.na](https://dev.are.na/documentation/channels) as a mobile-friendly host for posting blogs, photos, whatever
 
 # STEPS AFTER COPYING
-* Ctrl + F and update name from "11ty-template"
+* Ctrl + F and update name from "lille-templeventy"
 * Connect DNS spaghetti to Neocities and wherever your custom domain is
 * Github action to automatically deploy to Neocities upon updating:
   * Add Neocities API token into repo secrets

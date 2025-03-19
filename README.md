@@ -11,7 +11,8 @@ automatically builds and deploys using [bret comnes' deploy-to-neocities tool](h
 * Ctrl + F and update name from "11ty-template"
 * Connect to Neocities + Porkbun
 * Github action to automatically deploy to Neocities upon updating:
-  * create ```.github / workflows / deploy-to-neocities.yml``` at project root
+  * Create ```.github / workflows / deploy-to-neocities.yml``` at project root
+  * Don't forget to add Neocities API token into repo secrets
   * ```
     name: Deploy to neocities
 
